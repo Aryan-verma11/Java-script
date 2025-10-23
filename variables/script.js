@@ -15,9 +15,9 @@ console.log(a)
 // this is invalid we cant change the const variables
 
 
-// understabdir the let variable
+// understanding the let variable
 {
     let a=78;
-    console.log(a) // let variabl works inside the block of code
+    console.log(a) // let variable works inside the block of code
 }
 console.log(a)
