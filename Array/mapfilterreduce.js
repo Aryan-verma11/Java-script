@@ -29,3 +29,18 @@ const greaterthanfive=(e)=>{
 }
 console.log(arr.filter(greaterthanfive));
 
+//using reduce method
+//
+
+let arr2=[1,2,3,4,5,6,7,8,9]
+const reducefunckanaam=(a,b)=>{
+    return a+b  //koi bhi operation laag skty hai
+}
+
+console.log(arr2.reduce(reducefunckanaam))
+
+
+//use of from jab kisi bhi obj ko array me convert karna ho tab
+
+let h=Array.from("aryan")
+console.log(h)
