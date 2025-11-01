@@ -13,8 +13,18 @@ for (i=a; i>=1; i--) {
 console.log(arr);
 
 let arr2=[1,2,3,4,5,6,7,8,9]
-const reducefunckanaam=(a,b)=>{
+const reducefunckanaam=(a,b)=>{   
     return a+b  //koi bhi operation laag skty hai
 }
 
 console.log(arr2.reduce(reducefunckanaam))
+
+//using filter method agar hmmey kuch specific elements chahiye tab use krty hai jaisy ki wo elements jo ki 5 sy badey hai\
+
+const greaterthanfive=(e)=>{
+    if(e>5){
+        return true
+    }
+    return false
+}
+console.log(arr.filter(greaterthanfive));
