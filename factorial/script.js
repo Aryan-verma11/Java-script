@@ -45,4 +45,4 @@ function factorial(n) {
 }
 
 // Example:
-console.log(factorial(5)); // Output: 120
+console.log(factorial(5)); // Output: 120...
