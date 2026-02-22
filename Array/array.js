@@ -1,4 +1,4 @@
-console.log("lets learn about the arrya in javascripyt")
+console.log("lets learn about the array in javascripyt")
 
 
 let arr=[1,2,3,4,5,7]
