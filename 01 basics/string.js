@@ -36,3 +36,5 @@ console.log(spacestring.trim())  //it will give hello world because it will remo
 const url="https://www.youtube.com/"
 url.replace("https","http")  //it will give http://www.youtube.com/ because it will replace the first occurrence of the string "https" with "http"
 console.log(url)  //it will give https://www.youtube.com/ because the replace method does not change the original string, it returns a new string with the replacement
+
+console.log(name.split("__"))
