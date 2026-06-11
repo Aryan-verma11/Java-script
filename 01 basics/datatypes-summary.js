@@ -50,3 +50,20 @@ console.log(typeof myObj) //output comes as object because it is a object
 console.log(typeof heros)     //output comes as object because array is also a object in js
 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack uses (primitive data types) and heap uses (reference data types)
+
+let iam ="python developer"  //stored in stack
+let anotherIam= "webdev"  //stored in stack
+console.log(anotherIam)  // it means the stack stores the copy of the value and not the reference to the value
+
+let userone={
+    email: "av87657@gmail.com",
+    name: "Aryan"
+}
+
+let usertwo= userone  //stored in heap
+
+console.log(userone.email)
+console.log(usertwo.email)  //it will give the same email because both userone and usertwo are referencing the same object in the heap
