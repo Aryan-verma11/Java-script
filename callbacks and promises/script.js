@@ -1,4 +1,5 @@
-//asynchronus nature of js which tell that first script will run than the other things
+//asynchronus nature of js which tell that it is not necessary that always it run the first line of code settimeout behave asynchronously so js stops the function of settimeout executing it will run the other lines first than it will run the settimeout
+
 
 console.log("Aryan is a hacker") //synchronus
 console.log("Arun is a hacker")
